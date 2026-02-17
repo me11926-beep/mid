@@ -9,14 +9,12 @@ function ProductCard({ product }) {
         src={product.thumbnail}
         alt={product.title}
       />
-
       <div className="product-card_body">
         <h2 className="product-card_title">{product.title}</h2>
         <p className="product-card_category">{product.category}</p>
-
         <div className="product-card_meta">
           <span className="product-card_price">${product.price}</span>
-          <span className="product-card_rating">{product.rating ?? product.brand}</span>
+          <span className="product-card_rating">{product.rating}</span>
         </div>
       </div>
     </Link>

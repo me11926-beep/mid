@@ -5,8 +5,6 @@
   color: #111;
   display: block;
   overflow: hidden;
-  text-decoration: none;
-  transition: border-color 0.2s ease;
 }
 
 .product-card:hover {
@@ -43,9 +41,10 @@
 }
 
 .product-card_price {
-  color: #d60000;
+  color: #1c19d6;
   font-size: 20px;
   font-weight: 700;
+  
 }
 
 .product-card_rating {
